@@ -15,7 +15,7 @@
     --orange-button: #f29e33;
     --dark-text: #444851;
     --lightgray-text: #cfd4d8;
-    --background-color: #f6f8f9;
+    --background-color: #c0c3c4;
 }
 
 /* body */
@@ -41,4 +41,14 @@ header {
     font-weight: bold;
     vertical-align: top;
     padding: 15px 0;
+}
+
+/* main */
+
+.container {
+    border-radius: 0.5rem;
+    margin: 3rem auto;
+    width: 70%;
+    height: 500px;
+    background-color: white;
 }

@@ -29,18 +29,14 @@ body {
 
 header {
   background-color: white;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
-#header_image {
-  padding: 1rem 0.5rem 1rem 1rem;
-}
 
 #header_title {
-  display: inline-block;
   font-size: 3rem;
   font-weight: bold;
   vertical-align: top;
-  padding: 15px 0;
 }
 
 /* main */
@@ -54,7 +50,7 @@ main {
   border-radius: 0.5rem 0.5rem 0 0;
   margin: 3rem 0 0 0;
   background-color: white;
-  padding: 1rem 4rem 0.5rem 4rem;
+  padding: 2rem 4rem 1rem 4rem;
 }
 
 .nav_button {

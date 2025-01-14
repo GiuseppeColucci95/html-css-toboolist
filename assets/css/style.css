@@ -60,34 +60,47 @@ main {
 .nav_button {
     padding: 0.5rem;
     border-radius: 0.25rem;
+    color: white;
+    border: 2px solid;
+}
+
+.list_button {
+    color: white;
+    border: 2px solid;
 }
 
 .blue_button {
-    border: 2px solid var(--blue-button);
+    border-color: var(--blue-button);
     background-color: var(--blue-button);
-    color: white;
 }
 
 .violet_button {
-    border: 2px solid var(--violet-button);
+    border-color: var(--violet-button);
     background-color: var(--violet-button);
-    color: white;
 }
 
 .green_button {
-    border: 2px solid var(--green-button);
+    border-color: var(--green-button);
     background-color: var(--green-button);
-    color: white;
 }
 
 .orange_button {
-    border: 2px solid var(--orange-button);
+    border-color: var(--orange-button);
     background-color: var(--orange-button);
-    color: white;
+}
+
+.purple_button {
+    border-color: var(--purple-button);
+    background-color: var(--purple-button);
+}
+
+.limegreen_button {
+    border-color: var(--limegreen-button);
+    background-color: var(--limegreen-button);
 }
 
 .white_button {
-    border: 2px solid var(--lightgray-text);
+    border-color: var(--lightgray-text);
     background-color: white;
     color: var(--lightgray-text);
 }

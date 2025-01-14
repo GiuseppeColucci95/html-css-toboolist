@@ -15,7 +15,7 @@
     --orange-button: #f29e33;
     --dark-text: #444851;
     --lightgray-text: #cfd4d8;
-    --background-color: #c0c3c4;
+    --background-color: #8e8f8f;
 }
 
 /* body */
@@ -45,10 +45,34 @@ header {
 
 /* main */
 
-.container {
-    border-radius: 0.5rem;
-    margin: 3rem auto;
+main {
     width: 70%;
-    height: 500px;
+    margin: auto;
+}
+
+.nav_container {
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin: 3rem auto;
     background-color: white;
+}
+
+#nav_header {
+    padding: 1rem 4rem;
+}
+
+.nav_button {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.blue_button {
+    border: 2px solid var(--blue-button);
+    background-color: var(--blue-button);
+    color: white;
+}
+
+.white_button {
+    border: 2px solid var(--lightgray-text);
+    background-color: white;
+    color: var(--lightgray-text);
 }

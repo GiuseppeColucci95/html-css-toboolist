@@ -52,11 +52,8 @@ main {
 
 .nav_container {
     border-radius: 0.5rem 0.5rem 0 0;
-    margin: 3rem auto;
+    margin: 3rem 0 0 0;
     background-color: white;
-}
-
-#nav_header {
     padding: 1rem 4rem;
 }
 
@@ -75,4 +72,39 @@ main {
     border: 2px solid var(--lightgray-text);
     background-color: white;
     color: var(--lightgray-text);
+}
+
+.main_container {
+    border-radius: 0 0 0.5rem 0.5rem;
+    margin-top: 3px;
+    background-color: white;
+    padding: 1rem 4rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--dark-text);
+    margin-bottom: 1rem;
+}
+
+.ok_button {
+    border: 1px solid var(--green-button);
+    color: var(--green-button);
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    margin-right: 0.25rem;
+}
+
+.task_title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--dark-text);
+}
+
+.list_button {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 0.75rem;
 }

@@ -106,7 +106,6 @@ main {
 }
 
 .main_container {
-  border-radius: 0 0 0.5rem 0.5rem;
   margin-top: 3px;
   background-color: white;
   padding: 1rem 4rem;
@@ -155,4 +154,17 @@ main {
 
 .row {
   margin-bottom: 1rem;
+}
+
+/* footer */
+
+.footer_container {
+  width: 70%;
+  margin: auto;
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin-top: 3px;
+  background-color: white;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
 }

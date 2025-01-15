@@ -36,7 +36,11 @@ header {
 #header_title {
   font-size: 3rem;
   font-weight: bold;
-  vertical-align: top;
+  vertical-align: middle;
+}
+
+#header_image {
+  vertical-align: middle;
 }
 
 /* main */
